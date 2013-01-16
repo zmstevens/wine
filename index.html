@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Backbone Cellar</title>
+
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+<div class="navbar">
+  <div class="navbar-inner">
+  <a class="brand" href="#">Zach's Awesome Wine Cellar</a>
+</div>
+</div></div></div>
+<div id="sidebar"></div>
+
+<div id="content">
+
+<h2>Welcome to Zach's Awesome Wine Cellar</h2>
+<p>
+This is a selection of Wines that are available at Zach's Awesome Wine Cellar
+</p>
+</div>
+
+<!-- Templates -->
+<script type="text/template" id="tpl-wine-list-item">
+<a href="#wines/<%= id %>"><%= name %></a>
+</script>
+
+<script type="text/template" id="tpl-wine-details">
+
+<div class="form-left-col">
+<div class="span6">
+<div class="well">
+<div class="row-fluid">
+ID: <%= id%><br/>
+
+Name: <%=name%><br/>
+
+Color: <%=color%><br/>
+
+Grapes: <%=grapes%><br/>
+
+Country: <%=country%><br/>
+
+Region: <%=region%><br/>
+Year: <%=year%><br/>
+
+<div class="form-right-col">
+<br/>
+
+<img src="pics/<%=picture%>"/>
+<br/><br/>
+Notes:<br/><br/> <%=description%>
+</div></div></div></div>
+</div>
+</div>
+</script>
+
+<!-- JavaScript -->
+<script src="lib/jquery-1.7.1.min.js"></script>
+<script src="lib/underscore-min.js"></script>
+<script src="lib/backbone-min.js"></script>
+<script src="js/main.js"></script>   
+
+</body>
+</html>

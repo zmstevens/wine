@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EmbeddedEditorHidden:a00828662</key>
+	<false/>
+	<key>ExpandedEditorWidth:a00828662:displays([(0, 0), (2560, 1440)])</key>
+	<integer>850</integer>
+	<key>ExpandedItems:a00828662</key>
+	<array/>
+	<key>FileFilterMode:a00828662</key>
+	<integer>0</integer>
+	<key>OpenDocuments:a00828662</key>
+	<array/>
+	<key>OpenDocumentsExpanded</key>
+	<true/>
+	<key>OpenDocumentsVisible</key>
+	<true/>
+	<key>ProjectViewVisible</key>
+	<true/>
+	<key>RecentItems:a00828662</key>
+	<array/>
+	<key>RecentItemsExpanded</key>
+	<true/>
+	<key>RecentItemsVisible</key>
+	<true/>
+	<key>ScratchpadItemsExpanded</key>
+	<true/>
+	<key>ScratchpadItemsVisible</key>
+	<true/>
+	<key>ShowSCMData:a00828662</key>
+	<false/>
+	<key>ToolbarVisible:a00828662</key>
+	<true/>
+	<key>ViewSplitterPosition:a00828662</key>
+	<real>0.18286813795566559</real>
+	<key>WindowFrame:a00828662:displays([(0, 0), (2560, 1440)])</key>
+	<string>rect(130,195,1413,1234)</string>
+</dict>
+</plist>
